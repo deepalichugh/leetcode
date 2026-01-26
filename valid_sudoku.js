@@ -27,7 +27,7 @@ var isValidSudoku = function(board) {
         }
     }
 
-    //check boxes
+    //check boxes in grid
     for (let box = 0; box < board.length; box++) {
         let seen = new Set();
         for (let i = 0; i < 3; i++) {
